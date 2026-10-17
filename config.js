@@ -23,21 +23,21 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Maria Helena",
+  nome: "Isabelly",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5515991686144",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Maria Helena."
+    numero: "5511934104958",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Isabelly."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://share.google/7oyi4t2qFT3dR1Bpf",
+  mapa: "https://maps.app.goo.gl/sDbRiegdZCzvV5hS6",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -49,8 +49,8 @@ window.CONFIG = {
     whatsapp: true,
     localizacao: true,
     presentes: true,
-    dresscode: true,
-    manual: true,
+    dresscode: false,
+    manual: false,
     contagem: false
   },
 
@@ -126,6 +126,6 @@ window.CONFIG = {
   // volume: de 0 (mudo) a 1 (máximo). O padrão 0.30 é agradável e não
   //         briga com o áudio do vídeo.
   musica: {
-    volume: 0.30
+    volume: 0.60
   }
 };
